@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Garage Parrot" content="Réparation, vente de véhicules toute marques">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/06804bbcff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" id="navgeneral">
+                <a class="navbar-brand" href="./Accueil.html">
+                    <img src="./Logo.png" alt="..." class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Accueil.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Le garage.html">Le garage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Rendez-vous.html">Prendre rendez-vous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vente de véhicule.html">Vente de véhicule d'occassion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main class="row">
+            <div class="card" style="width: 60%" id="cardRDV">
+                <div class="card-body">
+                    <h2 id="priseRDV">Votre rendez-vous au garage :</h2>
+                    <form>
+                        <p>Vous êtes...<span>*</span></p>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Prenom" aria-label="Prenom">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nom" aria-label="Nom">
+                            </div>
+                        </div>
+                        <br>
+                        <p>Téléphone<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="00 00 00 00 00">
+                        </div>
+                        <p>EMail<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control">
+                        </div>
+                        <p>Votre commune<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control">
+                        </div>
+                        <p>Votre véhicule<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="véhicule">
+                        </div>
+                        <p>Défaut constaté / souhait<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="défaut">
+                        </div>
+                        <p>Disponibilité<span>*</span></p>
+                        <div class="mb-3">
+                            <input type="date" class="form-control" placeholder="JJ/MM/AAAA">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-light">Valider votre rendez-vous</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="parent">
+            <div class="div1">
+                <img src="./Logo.png" id="logoBasDePage">
+            </div>
+            <div class="div2">
+                <h4>Horaires d'ouverture:</h4>
+                <ul>
+                    <li>Du lundi au vendredi : 08:45 - 12:00, 14:00 - 18:00</li>
+                    <li>Samedi : 08:45 - 12:00</li>
+                    <li>Dimanche : Fermé</li>
+                </ul>
+            </div>
+            <div class="div3">
+                <h4>Contact:</h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i>
+                        <a href="tel:0182336678" id="phoneBas">01.82.33.66.78</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:contact@garagev.parrot.fr">contact@garagev.parrot.fr</a>
+                    </li>
+                    <li>
+                        <p><i class="fa-solid fa-location-dot"></i>
+                            244 rue Montsaintaignan, 76290 Montivilliers</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

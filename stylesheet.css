@@ -1,0 +1,102 @@
+#navgeneral {
+    background-color: #D94350;
+    font-family: Rajdhani;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #262526;
+}
+
+main {
+    background-image: url(./logo\ sans\ fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+footer {
+    background-color: #D94350;
+    width: 100%;
+    font-family: Barlow;
+    font-size: small;
+    height: 100%;
+}
+
+h3,h4,h2 {
+    font-weight: bolder;
+}
+
+li {
+    list-style: none;
+}
+ 
+#logoBasDePage {
+    width: 120px;
+    height: 120px;
+    margin-left: 20%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+
+ul {
+    padding-left: 0;
+}
+
+li > a {
+    color: black;
+}
+
+#priseRDV {
+    text-align: center;
+    background-color: white;
+}
+
+form > p {
+    font-weight: bolder;
+    color: white;
+}
+
+
+#cardRDV {
+    left: 20%;
+    background-image: url(./photo\ garage\ 4.jpg);
+    background-repeat: no-repeat;
+  background-position: center
+}
+
+form > button {
+    position: relative;
+    left: 35%;
+}
+
+p > span {
+    color: red;
+}
+
+.nav-item {
+    width: 1fr;
+    border:  1px;
+    margin: 35px;
+    font-size: 25px;
+}
+
+#mainContact {
+    background-color: black;
+    color: white;
+}
+
+#btnValid {
+    background-color: white;
+    left: 0;
+}
